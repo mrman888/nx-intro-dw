@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@dw/data": ["libs/data/src/index.ts"]
+      "@dw/data": ["libs/data/src/index.ts"],
+      "@dw/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

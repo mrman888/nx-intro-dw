@@ -15,7 +15,7 @@ export class AppComponent {
   }
 
   fetch() {
-    this.http.get<Todo[]>('/api/todos').subscribe((t) => (this.todos = t));
+    this.http.get<[]>('/api/todos').subscribe((t) => (this.todos = t));
   }
 
   addTodo() {
